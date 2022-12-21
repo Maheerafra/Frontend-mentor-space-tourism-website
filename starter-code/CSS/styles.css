@@ -88,3 +88,39 @@
     background-color:  rgb(107, 105, 105)82, 81, 81);
     box-shadow: 0px 0px 20px 10px #ccc;
   }
+
+
+  /*destination-europa*/
+
+*{
+    color: white;
+    background-image: url(../assets/destination/background-destination-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-decoration: none;
+
+}
+.destine{
+    display: flex;
+    flex-direction: row;
+}
+.explain{
+    display: flex;
+    flex-direction: column;
+}
+/*.europe{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 300px;
+}*/
+.europe-img{
+    width: 500px;
+    height: 500px;
+}
+.four{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
