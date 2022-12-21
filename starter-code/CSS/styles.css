@@ -1,4 +1,4 @@
-body.index{
+*{
     color: white;
     background-image: url(../assets/home/background-home-desktop.jpg);
     background-size: cover;
@@ -93,7 +93,7 @@ circle-button{
 
   /*destination-europa*/
 
-body.desti-euro{
+*{
     color: white;
     background-image: url(../assets/destination/background-destination-desktop.jpg);
     background-size: cover;
