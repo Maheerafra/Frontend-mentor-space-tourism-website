@@ -5,33 +5,56 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="./CSS/styles.css">
   <title>Frontend Mentor | Space tourism website</title>
 </head>
+<style>
+    
+  body {
+   color: white;
+   background-image: url(./assets/destination/background-destination-desktop.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+ }
+ </style>
 <body>
-
-  00 Home
-  01 Destination
-  02 Crew
-  03 Technology
-
-  01 Pick your destination
-
-  Moon
-  Mars
-  Europa
-  Titan
-
-  Titan
-
-  The only moon known to have a dense atmosphere other than Earth, Titan 
-  is a home away from home (just a few hundred degrees colder!). As a 
-  bonus, you get striking views of the Rings of Saturn.
-
-  Avg. distance
-  1.6 bil. km
-
-  Est. travel time
-  7 years
+  <div class="page">
+    <div class="Hero">
+      <img class="logo" src="./assets/shared/logo.svg">
+      <div class="nav">
+         <a style="color:white; text-decoration:none" href="./index.html">00 HOME</a>
+         <a style="color:white; text-decoration:none" href="./destination-europa.html">01 DESTINATION</a>
+         <a style="color:white; text-decoration:none" href="./crew-commander.html">02 CREW</a>
+         <a style="color:white; text-decoration:none" href="./technology-vehicle.html">03 TECHNOLOGY</a>
+      </div>
+    </div>
+      <div class="pick">01 PICK YOUR DESTINATION</div>
+   <div class="four">
+     <img class="europe-img" src="./assets/destination/image-titan.png" alt="">
+   <div class="explain">
+    <div class="destine">
+     <a style="color:white; text-decoration:none" href="./destination-europa.html">EUROPA</a>
+     <a style="color:white; text-decoration:none" href="./destination-mars.html">MARS</a>
+     <a style="color:white; text-decoration:none" href="./destination-moon.html">MOON</a>
+     <a style="color:white; text-decoration:none" href="./destination-titan.html">TITAN/a>
+    </div>
+  <div class="info">
+    <h1>Titan</h1>
+    <p>The only moon known to have a dense atmosphere other than Earth, Titan 
+      is a home away from home (just a few hundred degrees colder!). As a 
+      bonus, you get striking views of the Rings of Saturn.        
+    </p>
+  </div>
+  <div class="more-info">
+    <div> Avg. distance</div>
+    <div> Est. travel time</div>
+  </div>
+ <div class="distance">
+   <div>  1.6 bil. km  </div>
+   <div> 7 years</div>
+   </div>
+ </div>
+</div>
 </body>
 </html>
